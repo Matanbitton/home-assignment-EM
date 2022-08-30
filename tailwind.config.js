@@ -15,6 +15,10 @@ module.exports = {
       backgroundImage: {
         "tv-icon": "url('./tv.jpg')",
       },
+      fontFamily: {
+        inter: ["inter", "sans-serif"],
+        MyFont: ['"My Font"', "serif"],
+      },
     },
   },
   plugins: [],
