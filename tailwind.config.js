@@ -10,7 +10,7 @@ module.exports = {
 
         tablet: { min: "720px", max: "1074px" },
 
-        desktop: { min: "1074px", max: "1920px" },
+        desktop: { min: "1074px", max: "100vw" },
       },
       backgroundImage: {
         "tv-icon": "url('./tv.jpg')",
