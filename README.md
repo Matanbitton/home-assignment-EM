@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/69572698/187792833-1b4ae168-4fdf-4378-
 
 ## What I enjoyed:
 
-I needed to figure out how to make a triagnle to go behind the Best Choice/Best Value section at the top
+I needed to figure out how to make a triangle to go behind the Best Choice/Best Value section at the top
 at first I struggled to think of a way to make a traingle since border radius won't work.
 I needed a sharp cut and border-radius only makes rounded corners.
 
