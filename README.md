@@ -1,6 +1,6 @@
 #Home Assignment
 
-- 👨‍💻 See the live version of this project at **[Home-Assigenment](https://matanbitton.github.io/Hit-Commit/)**
+- 👨‍💻 See the live version of this project at **[Home-Assigenment](https://matanbitton.github.io/home-assignment-EM/)**
 
 ## About The Project
 
