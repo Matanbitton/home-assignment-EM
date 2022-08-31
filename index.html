@@ -22,47 +22,53 @@
       class="relative mobile:min-w-[340px] mobile:px-[20px] tablet:px-[24px] h-screen flex flex-col justify-center items-center bg-gray-100"
     >
       <p
-        class="vector w-3 h-3 opacity-95 z-0 bg-[#c54901] tablet:bg-blue-300 tablet:left-[18px] tablet:top-[370px] absolute top-[249px] left-[14px] rotate-45"
+        class="vector w-3 h-3 opacity-95 z-0 bg-[#c54901] tablet:bg-blue-300 desktop:bg-blue-300 tablet:left-[18px] tablet:top-[370px] absolute top-[249px] desktop:top-[348px] desktop:left-[47px] left-[14px] rotate-45"
       ></p>
       <div
-        class="z-10 mobile:h-[375px] tablet:h-[132px] desktop:h-[132px] tablet:min-w-[672px] w-full desktop:w-[1024px] bg-white rounded-xl shadow-md relative"
+        class="z-10 mobile:h-[375px] tablet:h-[132px] desktop:h-[176px] tablet:min-w-[672px] w-full desktop:w-[1024px] bg-white rounded-xl shadow-md relative"
       >
         <div
           class="z-20 flex flex-col justify-center items-center relative w-full"
         >
-          <h1 class="absolute opacity-10 font-extrabold text-[64px] right-6">
+          <h1
+            class="absolute opacity-[15%] desktop:top-[20px] desktop:left-[12px] font-extrabold text-[64px] desktop:text-[80px] right-6"
+          >
             01
           </h1>
           <div
-            class="flex bg-[#FF5C00] absolute left-[-8px] tablet:bg-blue-100 tablet:text-[#0B76E0] text-white w-[140px] h-[32px] py-2 rounded-tr-lg rounded-br-lg justify-center gap-2 items-center"
+            class="flex bg-[#FF5C00] absolute left-[-8px] desktop:bg-blue-100 tablet:bg-blue-100 tablet:text-[#0B76E0] desktop:text-[#0B76E0] text-white w-[140px] h-[32px] py-2 rounded-tr-lg rounded-br-lg justify-center gap-2 items-center"
           >
-            <i class="fa-solid fa-trophy mobile:block tablet:hidden"></i>
             <i
-              class="fa-solid fa-fire-flame-curved mobile:hidden tablet:block"
+              class="fa-solid fa-trophy mobile:block desktop:hidden tablet:hidden"
+            ></i>
+            <i
+              class="fa-solid fa-fire-flame-curved mobile:hidden desktop:block tablet:block"
             ></i>
 
             <p
-              class="p-0 m-0 tablet:hidden text-[16px] inter font-semibold tracking-[0.2px] leading-[140%]"
+              class="p-0 m-0 tablet:hidden desktop:hidden text-[16px] inter font-semibold tracking-[0.2px] leading-[140%]"
             >
               Best Choice
             </p>
             <p
-              class="p-0 m-0 text-[16px] mobile:hidden inter font-semibold tracking-[0.2px] leading-[140%]"
+              class="p-0 m-0 text-[16px] mobile:hidden desktop:block inter font-semibold tracking-[0.2px] leading-[140%]"
             >
               Best Value
             </p>
           </div>
 
           <div
-            class="product-container flex absolute mobile:top-[42px] left-[60px] justify-center mobile:min-w-[160px] tablet:left-[0px] tablet:w-[200px] tablet:top-[25px]"
+            class="product-container flex absolute mobile:top-[42px] desktop:h-[176px] desktop:top-[50%] left-[60px] justify-center mobile:min-w-[160px] desktop:left-[0px] tablet:left-[0px] tablet:w-[200px] tablet:top-[25px]"
           >
             <div
-              class="tv-icon p-2 tablet:p-0 justify-center w-[40%] tablet:left-[15px] mobile:min-w-[160px] mobile:max-w-[540px] tablet:absolute tablet:w-[118px] flex flex-col-reverse"
+              class="tv-icon p-2 tablet:p-0 justify-center w-[40%] desktop:w-[45%] tablet:left-[15px] mobile:min-w-[160px] mobile:max-w-[540px] desktop:max-w-[500px] tablet:absolute tablet:w-[118px] flex flex-col-reverse"
             >
-              <p class="tablet:hidden text-center text-gray-500">SONY</p>
+              <p class="tablet:hidden desktop:hidden text-center text-gray-500">
+                SONY
+              </p>
             </div>
             <div
-              class="product-rating flex-col flex mt-5 relative tablet:hidden justify-center mb-4 tablet:absolute tablet:left-[600px]"
+              class="product-rating flex-col flex mt-5 relative tablet:hidden desktop:hidden justify-center mb-4 tablet:absolute tablet:left-[600px]"
             >
               <div
                 class="text-gray-300 text-[9px] absolute mb-7 tablet:left-[42px] right-0"
@@ -84,40 +90,55 @@
             </div>
           </div>
           <div
-            class="product-description flex flex-col absolute tablet:h-[110px] h-[171px] tablet:top-[20px] tablet:gap-[20px] gap-14 w-full items-start mobile:min-w-[320px] tablet:flex-row tablet:w-[80%] tablet:right-[10px] top-48 px-[20px]"
+            class="product-description flex flex-col desktop:flex-row desktop:items-center absolute tablet:h-[110px] h-[171px] tablet:top-[20px] desktop:top-[0px] desktop:w-[60%] desktop:left-[400px] tablet:gap-[20px] gap-14 w-full items-start mobile:min-w-[320px] tablet:flex-row tablet:w-[80%] tablet:right-[10px] top-48 px-[20px] desktop:gap-[15px]"
           >
             <p
-              class="bg-blue-400 w-[53px] m-0 mobile:block tablet:hidden mb-2 p-0 text-[12px] rounded text-white font-medium text-center py-[2px]"
+              class="bg-blue-400 w-[53px] m-0 mobile:block desktop:hidden tablet:hidden mb-2 p-0 text-[12px] rounded text-white font-medium text-center py-[2px]"
             >
               50% OFF
             </p>
             <p
-              class="text-[14px] font-inter text-gray-500 h-[40px] tablet:min-w-[171px] tablet:w-[70%] tablet:max-w-[1000px] tablet:top-0 top-8 tablet:relative tablet:align-start absolute align-middle font-semibold break-normal text-left tracking-[0.2px] leading-[140%]"
+              class="text-[14px] mobile:block tablet:hidden desktop:hidden font-inter text-gray-500 h-[40px] tablet:min-w-[171px] tablet:w-[70%] tablet:max-w-[1000px] desktop:max-w-[300px] tablet:top-0 top-8 tablet:relative desktop:relative tablet:align-start absolute align-middle font-semibold desktop:w-[277px] break-normal text-left tracking-[0.2px] leading-[140%]"
             >
               Sony X95J 85 Inch TV: BRAVIA XR Full Array LED 4K Ultra HD Smart
               Google TV
             </p>
             <p
-              class="tablet:block mobile:hidden text-center text-gray-500 absolute top-14 text-[12px]"
+              class="text-[14px] mobile:hidden tablet:block desktop:hidden font-inter text-gray-500 h-[40px] tablet:min-w-[171px] tablet:w-[70%] tablet:max-w-[1000px] desktop:max-w-[300px] tablet:top-0 top-8 tablet:relative desktop:relative tablet:align-start absolute align-middle font-semibold desktop:w-[277px] break-normal text-left tracking-[0.2px] leading-[140%]"
+            >
+              Sony X95J 85 Inch TV: BRAVIA XR Full Array LED 4K Ultra
+            </p>
+            <p
+              class="text-[16px] mobile:hidden tablet:hidden desktop:block desktop:mb-36 font-inter text-gray-500 desktop:text-[#55626E] h-[40px] tablet:min-w-[171px] tablet:w-[70%] tablet:max-w-[1000px] tablet:top-0 top-8 tablet:relative desktop:relative tablet:align-start absolute align-middle font-semibold desktop:w-[400px] break-normal text-left tracking-[0.2px] leading-[140%]"
+            >
+              Sony X95J 85 Inch TV: BRAVIA XR Full Array LED 4K Ultra HD Smart
+            </p>
+            <p
+              class="tablet:block mobile:hidden text-center text-gray-500 desktop:text-[#626E79] absolute desktop:top-[72px] desktop:text-[14px] top-12 text-[12px]"
             >
               SONY
+            </p>
+            <p
+              class="bg-blue-400 w-[62px] absolute top-24 m-0 mobile:hidden desktop:block tablet:hidden mb-2 p-0 text-[14px] rounded text-white font-medium text-center py-[2px]"
+            >
+              50% OFF
             </p>
 
             <div
               class="product-rating mobile:hidden tablet:block flex-col flex relative justify-center mb-4 mt-2"
             >
               <div
-                class="text-gray-300 text-[9px] absolute right-[0px] top-[0px]"
+                class="text-gray-300 text-[9px] absolute right-[0px] desktop:text-[12px] top-[0px]"
               >
                 <i class="fa-solid fa-circle-info"></i>
               </div>
               <p
-                class="text-gray-600 font-bold text-2xl py-0 m-0 text-center mt-2"
+                class="text-gray-600 font-bold desktop:mb-4 text-2xl desktop:text-[32px] py-0 m-0 text-center mt-2"
               >
                 9.8
               </p>
               <div
-                class="text-sky-600 mobile:text-[10px] tablet:text-[8px] desktop:text-2xl flex"
+                class="text-sky-600 mobile:text-[10px] tablet:text-[8px] desktop:text-[10px] flex desktop:gap-[2px]"
               >
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -127,22 +148,36 @@
               </div>
             </div>
             <div
-              class="mobile:w-full relative tablet:flex tablet:flex-col tablet:w-[30%] tablet:items-center tablet:gap-[10px]"
+              class="mobile:w-full relative tablet:flex tablet:flex-col desktop:mt-5 tablet:w-[30%] desktop:flex desktop:flex-col desktop:items-center desktop:w-[50%] tablet:items-center tablet:gap-[10px]"
             >
               <button
-                class="bg-blue-500 text-white rounded-xl py-2 w-full tablet:min-w-[171px] tablet:w-[40%] tablet:max-w-[280px] tablet:justify-center tablet:mt-[30px]"
+                class="bg-blue-500 text-white rounded-xl py-2 w-full tablet:min-w-[171px] tablet:w-[40%] tablet:max-w-[280px] desktop:w-[100%] desktop:font-bold tablet:justify-center tablet:mt-[30px]"
               >
                 View Deal
               </button>
+              <div
+                class="desktop:flex mobile:hidden tablet:hidden w-full mt-4 items-center justify-between"
+              >
+                <p
+                  class="tablet:top-[80px] tablet:left-[10px] tablet:text-[12px] tablet:w-[70px] top-[140px] left-5 text-[14px] text-gray-500 tracking-[0.2px]"
+                >
+                  On Amazon
+                </p>
+                <p
+                  class="bottom-[10px] text-[14px] font-inter text-[#55626E] font-semibold"
+                >
+                  Show more ▼
+                </p>
+              </div>
               <p
-                class="tablet:top-[80px] tablet:left-[10px] tablet:text-[12px] tablet:w-[70px] top-[140px] left-5 text-[14px] text-gray-500 tracking-[0.2px]"
+                class="tablet:top-[80px] desktop:hidden tablet:left-[10px] tablet:text-[12px] tablet:w-[70px] top-[140px] left-5 text-[14px] text-gray-500 tracking-[0.2px]"
               >
                 On Amazon
               </p>
             </div>
 
             <p
-              class="mobile:hidden absolute bottom-[10px] font-inter text-gray-800 text-[12px]"
+              class="mobile:hidden desktop:hidden absolute bottom-[10px] font-inter text-gray-800 text-[12px]"
             >
               Show more ▼
             </p>
