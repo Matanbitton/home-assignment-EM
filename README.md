@@ -60,6 +60,7 @@ issue in the link below:
 
 https://user-images.githubusercontent.com/69572698/187793130-eb0c61d1-4c91-4700-a63e-a8f45589800b.mp4
 
+another potenital Issue is with github pages, I changed the width in the tailwind config file to be 100vw and it still isn't updated for some reason.
 
 ## Connect with me:
 
